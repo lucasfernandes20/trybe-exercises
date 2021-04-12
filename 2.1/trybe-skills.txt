@@ -5,3 +5,5 @@ Oque eu vou aprender na Trybe:
 _-Git
 - Github
 -repositóios do GitHub
+- A deixar os codigos limpos e legiveis
+- Saber coordenar mais pessoas no mesmo projeto
