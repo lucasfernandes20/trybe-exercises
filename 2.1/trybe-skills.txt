@@ -4,6 +4,8 @@ Oque eu vou aprender na Trybe:
 - Bash
 - Git
 - Github
+- A deixar os codigos limpos e legiveis
+- Saber coordenar mais pessoas no mesmo projeto
 - Repositóios do GitHub
 - Trabalhar em equipe
 - Usar as melhores ferramentas atuais do mercado
