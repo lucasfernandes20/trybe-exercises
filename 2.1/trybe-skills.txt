@@ -1,7 +1,9 @@
 Oque eu vou aprender na Trybe:
 
 - Unix
--Bash
-_-Git
+- Bash
+- Git
 - Github
--repositóios do GitHub
+- Repositóios do GitHub
+- Trabalhar em equipe
+- Usar as melhores ferramentas atuais do mercado
