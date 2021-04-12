@@ -1,0 +1,1 @@
+-Estou desenvolvendo o exercicio de criar repositório, fazer os commits nele e mandar para o GitHub.
