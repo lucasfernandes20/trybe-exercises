@@ -1,0 +1,7 @@
+Oque eu vou aprender na Trybe:
+
+- Unix
+-Bash
+_-Git
+- Github
+-repositóios do GitHub
