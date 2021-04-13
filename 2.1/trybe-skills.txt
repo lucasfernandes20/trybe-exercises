@@ -9,3 +9,7 @@ Oque eu vou aprender na Trybe:
 - Repositóios do GitHub
 - Trabalhar em equipe
 - Usar as melhores ferramentas atuais do mercado
+- Internet
+- CSS
+- JavaScript
+- Java
