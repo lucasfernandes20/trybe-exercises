@@ -43,14 +43,35 @@
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
         - document.getElementsByClassName()
-        - document.getElementsByTagName()
- Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
- Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
- Crie uma função que mude a cor do quadrado vermelho para branco.
- Crie uma função que corrija o texto da tag <h1>.
- Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
- Crie uma função que exiba o conteúdo de todas as tags <p> no console.
-        */
+        - document.getElementsByTagName()*/
+        
+        function modificaTexto(texto) {
+            document.querySelector('p').innerText = texto;
+        }
+        modificaTexto('Eu me vejo como um desenvolvedor web trabalhando para empresas estrangeiras, e quem sabe morando fora do Brail em dois anos!');
+
+        function modificaQuadradoLateral(cor) {
+            document.querySelectorAll('.main-content')[0].style.backgroundColor = cor;
+        }
+        modificaQuadradoLateral('#4ca46d');
+
+        function modificaQuadradoCentral(cor){
+            document.querySelectorAll('.center-content')[0].style.backgroundColor = cor;
+        }
+        modificaQuadradoCentral('White');
+
+        function corrigeTitulo(palavra) {
+            document.getElementsByClassName('title')[0].innerText = palavra;
+        }
+        corrigeTitulo('Exercício 5.1 - JavaScript')
+
     </script>
   </body>
 </html>
+
+<!-- 
+    Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
+    Crie uma função que mude a cor do quadrado vermelho para branco.
+    Crie uma função que corrija o texto da tag <h1>.
+    Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+    Crie uma função que exiba o conteúdo de todas as tags <p> no console. -->
