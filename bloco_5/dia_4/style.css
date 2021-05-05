@@ -1,70 +1,34 @@
-* {
+body {
     margin: 0;
 }
 
-body {
-    background-color: rgb(84, 76, 104);
-}
-
-header {
+.header {
+    padding: 30px;
+    background-color: rgb(48, 32, 75);
+    color: white;
     text-align: center;
-    background-color: rgb(27, 24, 65);
-    background-size: 100%;
-    color: white;
-    padding: 40px;
 }
 
-article {
-    padding-top: 100px;
-}
-
-.sessao1 {
-    background-color: rgb(59, 47, 87);
+#content {
+    background-color: rgb(20, 78, 78);
     color: white;
-    padding: 30px 30px;
-}
-
-.sessao2 {
-    background-color: rgb(83, 66, 121);
-    color: white;
-    padding: 30px 30px;
-}
-
-.sessao3 {
-    background-color: rgb(59, 47, 87);
-    color: white;
-    padding: 30px 30px;
+    padding: 30px;
 }
 
 footer {
-    background-color: rgb(32, 60, 102);
+    background-color: rgb(48,32,75);
+    padding: 20px;
     color: white;
     text-align: center;
-    padding: 10px;
-}
-
-footer p {
-    margin-bottom: 10px;
 }
 
 .link {
-    color: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
     text-decoration: none;
-    background-color: rgb(54, 74, 104);;
+    background-color: white;
     padding: 5px;
-    border-radius: 5px;
-}
-
-.link:hover{
-    font-weight: bolder;
-    font-size: 20px;
-    background-color: teal;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-.nav-list {
-    margin-top: 20px;
+    border-radius: 3px;
 }
 
 .item-list {

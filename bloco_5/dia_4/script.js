@@ -1,9 +1,16 @@
-window.onload = function() {
-    function setBackgroundColor() {
-        let sessao1 = document.querySelector('.sessao1');
-        let botaoBackgroundColor = document.querySelector(".background");
-        botaoBackgroundColor.addEventListener('click', setBackgroundColor);
-        sessao1.style.backgroundColor = 'green';
-        localStorage.setItem("backgroundColor", color)
-      }
+window.onload = function(){
+
+
+    function setFontColor(){
+        let fonte = document.getElementById('content');
+        let botaoCorFonte = document.getElementById('corFonte');
+        
+        botaoCorFonte.addEventListener('click', function(){
+            if (fonte.style.color === 'white') {
+                fonte.style.color = 'black';
+              } else {
+                fonte.style.color = 'white';
+              };
+        })
+    }
 }
