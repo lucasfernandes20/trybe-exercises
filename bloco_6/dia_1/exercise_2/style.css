@@ -29,10 +29,18 @@ fieldset {
     padding: 10px;
 }
 
+
 #resumo {
     resize: none;
 }
 
 #descricao {
     resize: none;
+}
+
+#botao-submit {
+    margin: 0px auto 80px auto;
+    padding: 10px;
+    width: 30%;
+    display: block;
 }

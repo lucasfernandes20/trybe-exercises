@@ -33,7 +33,7 @@
                 </div>
                 <div class="doc-type">
                     <label for="cidade-1">Cidade</label>
-                    <input type="text" name="cidade" id="cidade-1">
+                    <input type="text" name="cidade" id="cidade-1" required>
                 </div>
                 <div class="doc-type">
                     <label for="estados-1">Em que estado resíde?</label>
@@ -48,6 +48,7 @@
                 </div>
             </fieldset>
             <fieldset>
+                <h2>Dados do seu último emprego:</h2>
                 <div class="doc-type">
                     <label for="resumo">Resumo do Currículo</label>
                     <textarea name="resumo" id="resumo" cols="50" rows="10" maxlength="1000" required placeholder="Escreva aqui um resumo de seu currículo"></textarea>
@@ -60,7 +61,12 @@
                     <label for="descricao">Descrição do cargo</label>
                     <textarea name="descricao" id="descricao" cols="50" rows="10" maxlength="500" required placeholder="Descreva seu último cargo"></textarea>
                 </div>
+                <div class="doc-type">
+                    <label for="data">Data de início</label>
+                    <input type="date" name="date" id="date" required>
+                </div>
             </fieldset>
+            <button type="submit" id="botao-submit">Enviar</button>
         </form>
     </main>
     
