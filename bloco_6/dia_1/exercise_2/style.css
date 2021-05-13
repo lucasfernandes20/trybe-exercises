@@ -1,46 +1,16 @@
-* {
-    margin: 0;
-}
-
-header {
-    text-align: center;
-    background-color: rgb(233, 233, 233);
-    padding: 20px;
-    width: 80%;
-    margin: 10px auto;
-    border: 1px solid rgb(199, 199, 199);
-    border-radius: 3px;
-}
-
-header h1 {
-    margin-bottom: 20px;
-}
-
-fieldset {
-    width: 50%;
-    margin: 30px auto;
-    background-color: rgb(233, 233, 233);
-    border: 1px solid rgb(199, 199, 199);
-    border-radius: 3px;
-    text-align: center;
-}
-
-.doc-type {
-    padding: 10px;
-}
-
-
-#resumo {
-    resize: none;
-}
-
-#descricao {
-    resize: none;
+.form-switch {
+    width: 40%;
 }
 
 #botao-submit {
-    margin: 0px auto 80px auto;
-    padding: 10px;
-    width: 30%;
     display: block;
+    margin: 5px auto 40px auto;
+}
+
+.form-checkform-check {
+    margin-bottom: 10px;
+}
+
+.form-check {
+    margin-bottom: 10px;
 }

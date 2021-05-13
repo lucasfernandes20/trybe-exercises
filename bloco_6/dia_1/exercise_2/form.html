@@ -5,68 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.rtl.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="./path/to/just-validate.min.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Formulário de cadastro</h1>
-        <h3>Preencha todos campos obrigatórios de forma correta</h3>
+    <header class="container text-center">
+        <h1 class="display-1">Formulário de cadastro</h1>
+        <h3 class="hlead">Preencha todos campos obrigatórios de forma correta</h3>
     </header>
     <main>
         <form action="" method="get">
-            <fieldset>
-                <div class="doc-type">
-                    <label for="nome-completo">Nome completo</label>
-                    <input type="text" name="nome" id="nome-completo" maxlength="40" placeholder="Digite seu nome completo" required>
+            <div class="container form-check">
+                <div class="form-checkform-check">
+                    <label class='form-label' for="nome-completo">Nome completo</label>
+                    <input class="form-control" type="text" name="nome" id="nome-completo" maxlength="40" placeholder="Digite seu nome completo" required>
                 </div>
-                <div class="doc-type">
-                    <label for="email-1">E-mail</label>
-                    <input type="email" name="email" id="email-1" required>
+                <div class="form-checkform-check">
+                    <label class='form-label' for="email-1">E-mail</label>
+                    <input class="form-control" type="email" name="email" id="email-1" required>
+                    <div id="emailHelp" class="form-text">Nós nunca vamos compartilhar seu e-mail com ninguém.</div>
                 </div>
-                <div class="doc-type">
-                    <label for="cpf-1">CPF</label>
-                    <input type="text" name="cpf" id="cpf-1" maxlength="11" required>
+                <div class="form-checkform-check">
+                    <label class='form-label' for="cpf-1">CPF</label>
+                    <input class="form-control" type="text" name="cpf" id="cpf-1" maxlength="11" required>
                 </div>
-                <div class="doc-type">
-                    <label for="endereco-1">Endereço</label>
-                    <input type="text" name="endereco" id="endereco-1" maxlength="200" required>
+                <div class="form-checkform-check">
+                    <label class='form-label' for="endereco-1">Endereço</label>
+                    <input class="form-control" type="text" name="endereco" id="endereco-1" maxlength="200" required>
                 </div>
-                <div class="doc-type">
-                    <label for="cidade-1">Cidade</label>
-                    <input type="text" name="cidade" id="cidade-1" required>
+                <div class="form-checkform-check">
+                    <label class='form-label' for="cidade-1">Cidade</label>
+                    <input class="form-control" type="text" name="cidade" id="cidade-1" required>
                 </div>
-                <div class="doc-type">
-                    <label for="estados-1">Em que estado resíde?</label>
-                    <select name="estados" id="estados-1">
+                <div class="form-checkform-check">
+                    <label class='form-label' for="estados-1">Em que estado resíde?</label>
+                    <select class="form-select" name="estados" id="estados-1">
                     </select>
                 </div>
-                <div class="doc-type">
-                    <label for="complemento-1">Casa</label>
-                    <input type="radio" name="complemento" id="complemento-1" checked>
-                    <label for="complemento-2">Apartamento</label>
-                    <input type="radio" name="complemento" id="complemento-2">
+                <div class="form-check form-switch">
+                    <label class='form-label' for="complemento-1">Casa</label>
+                    <input class="form-check-input" type="radio" name="complemento" id="complemento-1" checked>
                 </div>
-            </fieldset>
-            <fieldset>
+                <div class="form-check form-switch">
+                    <label class='form-label' for="complemento-2">Apartamento</label>
+                    <input class="form-check-input" type="radio" name="complemento" id="complemento-2">
+                </div>
+            </div>
+            <div class="container form-check">
                 <h2>Dados do seu último emprego:</h2>
-                <div class="doc-type">
-                    <label for="resumo">Resumo do Currículo</label>
-                    <textarea name="resumo" id="resumo" cols="50" rows="10" maxlength="1000" required placeholder="Escreva aqui um resumo de seu currículo"></textarea>
+                <div class="form-check">
+                    <label class='form-label' for="resumo">Resumo do Currículo</label>
+                    <textarea class="form-control" name="resumo" id="resumo" cols="50" rows="5" maxlength="1000" required placeholder="Escreva aqui um resumo de seu currículo"></textarea>
                 </div>
-                <div class="doc-type">
-                    <label for="cargo-1">Cargo</label>
-                    <input type="text" name="cargo" id="cargo-1" required maxlength="40" placeholder="Seu cargo no último emprego foi...">
+                <div class="form-check">
+                    <label class='form-label' for="cargo-1">Cargo</label>
+                    <input class="form-control" type="text" name="cargo" id="cargo-1" required maxlength="40" placeholder="Seu cargo no último emprego foi...">
                 </div>
-                <div class="doc-type">
-                    <label for="descricao">Descrição do cargo</label>
-                    <textarea name="descricao" id="descricao" cols="50" rows="10" maxlength="500" required placeholder="Descreva seu último cargo"></textarea>
+                <div class="form-check">
+                    <label class='form-label' for="descricao">Descrição do cargo</label>
+                    <textarea  class="form-control" name="descricao" id="descricao" cols="50" rows="5" maxlength="500" required placeholder="Descreva seu último cargo"></textarea>
                 </div>
-                <div class="doc-type">
-                    <label for="data">Data de início</label>
-                    <input type="date" name="date" id="date" required>
+                <div class="form-check">
+                    <label class='form-label' for="data">Data de início</label>
+                    <input class="form-control" type="date" name="date" id="date" required>
                 </div>
-            </fieldset>
-            <button type="submit" id="botao-submit">Enviar</button>
+            </div>
+            <button class='btn btn-primary' type="submit" id="botao-submit">Enviar</button>
         </form>
     </main>
     
