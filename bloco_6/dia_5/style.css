@@ -18,3 +18,50 @@ img {
 figure {
     margin: 40px 10px;
 }
+
+@media screen and (min-width: 501px) {
+    /* Altere a cor de fundo (isso vai te ajudar a perceber quando a media query teve efeito) ;
+    Ajuste o tamanho da fonte;
+    Ajuste as margens da página;
+    Faça as imagens serem mostradas em duas colunas. */
+    body {
+        background-color: antiquewhite;
+        font-size: 17px;
+        margin: 30px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    img {
+        max-width: 200px;
+    }
+
+    figure {
+        float: left;
+        width: 45%;
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (min-width: 1040px) {
+    /* Altere a cor de fundo;
+    Ajuste o tamanho da fonte;
+    Ajuste as margens da página;
+    Adicione a propriedade max-width à página, para garantir que a largura das linhas não fique muito grande.
+ */
+    body {
+        background-color: aquamarine;
+        font-size: 1.2em;
+        margin: 40px;
+        max-width: 1200px;
+    }
+
+    figure {
+        width: 40%;
+        margin-right: 2.5%;
+    }
+
+}
