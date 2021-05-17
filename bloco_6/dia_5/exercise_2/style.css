@@ -18,6 +18,10 @@
         display: flex;
         flex-direction: column;
     }
+    
+    .nav li {
+        margin-bottom: 10px;
+    }
 
     h2 {
         font-size: 24px;
@@ -87,4 +91,54 @@
     footer p {
         font-size: 19px;
     }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: rgb(135, 201, 135);
+    }
+
+    header {
+        background-color: white;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    header p {
+        font-size: 35px;
+    }
+
+    .nav {
+        font-size: 25px;
+    }
+  
+    .container {
+        flex-wrap: nowrap;
+    }
+
+    h2 {
+        text-align: left;
+        background-color: white;
+        padding: 5px;
+        border-radius: 3px;
+        display: inline-block;
+    }
+
+    .aside-one li, .aside-two li{
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .main-content {
+        margin-top: 50px;
+    }
+
+    .main-content p {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+  
 }
