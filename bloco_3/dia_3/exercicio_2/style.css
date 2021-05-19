@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+.super-mario {
+    width: 200px;
+    position: absolute;
+    left: 80px;
+    top: 100px;
+}
+.goomba {
+    width: 200px;
+    position: absolute;
+    top: 400px;
+    left: 80px;
+}
+.bowser {
+    width: 200px;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    }
+.word {
+    position: absolute;
+    width: 300px;
+    top: 400px;
+    left: 418px;
+    z-index: 2;
+    font-family: 'Dosis', sans-serif;
+}
+.baloon {
+    position: absolute;
+    width: 200px;
+    top: 370px;
+    left: 390px;
+    z-index: 1;
+}

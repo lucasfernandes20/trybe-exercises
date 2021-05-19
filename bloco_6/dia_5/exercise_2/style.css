@@ -1,0 +1,144 @@
+
+@media screen and (max-width: 501px) {
+    body {
+        background-color: rgb(159, 197, 197);
+        margin: 1.0em;
+        font-family: sans-serif;
+    }
+
+    header p {
+        font-weight: 800;
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .nav {
+        font-size: 20px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nav li {
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .aside-one {
+        font-size: 20px;
+    }
+
+    .aside-two {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .main-content p {
+        font-size: 24px;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 502px) {
+    body {
+        background-color: bisque;
+        margin: 1.1em;
+    }
+
+    header p {
+        font-weight: 800;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .nav {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        font-size: 20px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .aside-one li, .aside-two li{
+        font-size: 22px;
+        text-align: center;
+        list-style: none;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .main-content p {
+        font-size: 24px;
+    }
+
+    footer p {
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: rgb(135, 201, 135);
+    }
+
+    header {
+        background-color: white;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    header p {
+        font-size: 35px;
+    }
+
+    .nav {
+        font-size: 25px;
+    }
+  
+    .container {
+        flex-wrap: nowrap;
+    }
+
+    h2 {
+        text-align: left;
+        background-color: white;
+        padding: 5px;
+        border-radius: 3px;
+        display: inline-block;
+    }
+
+    .aside-one li, .aside-two li{
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .main-content {
+        margin-top: 50px;
+    }
+
+    .main-content p {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+  
+}
