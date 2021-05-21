@@ -1,0 +1,32 @@
+.cor:hover {
+   border: 3px solid black;
+}
+.primaria {
+    background-color: green;
+    margin-right: 650px;
+    font-style: italic;
+}
+.secundaria {
+    background-color: yellow;
+    margin-right: 650px;
+}
+.complementar {
+    background-color: rgb(32, 216, 192);
+    margin-right: 650px;
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+.escura {
+    background-color: brown;
+    margin-right: 650px;
+}
+.clara {
+    background-color: rgb(252, 167, 255);
+    margin-right: 650px;
+    font-style: italic;
+}
+.cor h3 {
+    font-family: monospace;
+    text-align: center;
+}
