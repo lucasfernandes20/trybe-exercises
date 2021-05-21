@@ -133,3 +133,14 @@ const chaveValue = (obj, num) => Object.values(obj)[num];
 console.log(chaveValue(lesson2, 2));
 
 //Crie uma função que verifique se o par (chave / valor) existe na função. Essa função deve possuir três parâmetros, sendo eles: o objeto, o nome da chave e o valor da chave. 
+
+const verificaPar = (obj, chave, valor) => {
+    const entradas = Object.entries(obj);
+    let result = false;
+
+    for (let key in entradas) {
+        if (entradas[key][0] === chave && entradas[key][1] === valor) result = true;
+    }
+    return result;
+}
+console.log(verificaPar(lesson3, 'materia', 'Matemática'));
