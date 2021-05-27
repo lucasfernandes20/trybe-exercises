@@ -67,11 +67,11 @@ const books = [
 
 const expectedResult = false;
 
-function everyoneWasBornOnSecXX() {
+function authorUnique() {
   // escreva seu código aqui
-  return books.every((livro) => ( livro.author.birthYear > 1901 && livro.author.birthYear <= 2000));
-};
+  return books.every((livro) => 
+  !books.some((livrosome) =>
+  (livrosome.author.birthYear === livro.author.birthYear) && (livrosome.author.name !== livro.author.name)));
+}
 
-console.log(everyoneWasBornOnSecXX());
-
-assert.strictEqual(everyoneWasBornOnSecXX(), expectedResult);
+assert.strictEqual(authorUnique(), expectedResult);
