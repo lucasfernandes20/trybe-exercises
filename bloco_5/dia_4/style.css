@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.header {
+    padding: 30px;
+    background-color: rgb(48, 32, 75);
+    color: white;
+    text-align: center;
+}
+
+#content {
+    background-color: rgb(20, 78, 78);
+    color: white;
+    padding: 30px;
+}
+
+footer {
+    background-color: rgb(48,32,75);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.link {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.item-list {
+    display: inline-block;
+}
